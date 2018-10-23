@@ -3,7 +3,7 @@ LABEL maintainer="Jeff Geerling"
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV pip_packages "ansible"
+ENV pip_packages "ansible yamllint ansible-lint flake8 testinfra molecule"
 
 # Install dependencies.
 RUN apt-get update \
